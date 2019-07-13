@@ -3,7 +3,6 @@
 echo ""
 read -p "Hostname [$(hostname)]: " HOSTNAME
 sudo raspi-config nonint do_hostname ${HOSTNAME:-$(hostname)}
-echo ""
 CURRENT_PRETTY_HOSTNAME=$(hostnamectl status --pretty)
 read -p "Pretty hostname [${CURRENT_PRETTY_HOSTNAME:-Raspberry Pi}]: " PRETTY_HOSTNAME
 sudo hostnamectl set-hostname --pretty "${PRETTY_HOSTNAME:-${CURRENT_PRETTY_HOSTNAME:-Raspberry Pi}}"
@@ -19,7 +18,9 @@ sudo apt update
 sudo apt upgrade -y
 
 fi
+echo "**********************"
 echo "Installing components"
+echo "**********************"
 
 sudo bash enable-hifiberry.sh
 sudo bash install-shairport.sh
