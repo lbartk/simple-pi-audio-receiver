@@ -1,6 +1,6 @@
-# Simple Raspberry pi AudioReceiver
+# Simple Raspberry pi AudioReceiver + OpenVPN
 
-Raspberry Pi Audio Receiver with Hifiberry soundcard, AirPlay, UPnP and Spotify Connect
+Raspberry Pi Audio Receiver with Hifiberry soundcard, AirPlay, UPnP and Spotify Connect + OpenVPN
 
 ## Features
 
