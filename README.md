@@ -23,17 +23,18 @@ The installation script asks for each components to install or not.
 
 ### Step by step
 
-At the beginning need to define a easy to use hostname. For example I use Raspberry with NAD amplifier so, easy to use name is "PiNAD". This name is visible as a device name on the Air or in Spotify Connect device.
+At the beginning need to define a easy to use hostname. 
+For example I use Raspberry with NAD amplifier so, easy to use name is "PiNAD". This name is visible as a device name on the Air or in Spotify Connect device.
 
 ### AirPlay
 
-Installs [Shairport Sync](https://github.com/mikebrady/shairport-sync) AirPlay Audio Receiver.
+Installs [Shairport Sync](https://github.com/mikebrady/shairport-sync) AirPlay Audio Receiver which allow to listen to music direclty from Apple devices.
 
 ### Spotify Connect
 
-Installs [Raspotyfi](https://github.com/dtcooper/raspotify), an open source Spotify client).
+Installs [Raspotyfi](https://github.com/dtcooper/raspotify), an open source Spotify client) which allow to play the music through that device.
 
-Quality set to 320 kbps
+Additional Settings - Quality set to 320 kbps
 
 ### UPnP
 
