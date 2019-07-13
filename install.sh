@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-echo ""
+echo "Simple Pi Audio Receiver installation....."
 read -p "Hostname [$(hostname)]: " HOSTNAME
 sudo raspi-config nonint do_hostname ${HOSTNAME:-$(hostname)}
 CURRENT_PRETTY_HOSTNAME=$(hostnamectl status --pretty)
