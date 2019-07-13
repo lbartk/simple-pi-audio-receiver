@@ -28,7 +28,7 @@ For example I use Raspberry with NAD amplifier so, easy to use name is "PiNAD". 
 
 ### AirPlay
 
-Installs [Shairport Sync](https://github.com/mikebrady/shairport-sync) AirPlay Audio Receiver which allow to listen to music direclty from Apple devices.
+Installs [Shairport Sync](https://github.com/mikebrady/shairport-sync) AirPlay Audio Receiver which allow play the music from Apple devices.
 
 ### Spotify Connect
 
